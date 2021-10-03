@@ -67,7 +67,8 @@ pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
 ```
 <br>
 
-### (3).安装torch和torchvision  先下载好torch（1.2.0）和torchvision（0.4.0）的whl文件，下载地址：
+### (3).安装torch和torchvision  
+先下载好torch（1.2.0）和torchvision（0.4.0）的whl文件，下载地址：
 ```
 链接：https://pan.baidu.com/s/1QIuJfEE5qQFpXY8ZlHeLNQ 
 提取码：abcd 
