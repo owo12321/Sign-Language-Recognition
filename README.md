@@ -38,7 +38,7 @@ https://www.bilibili.com/video/BV1XE41137LV
 ---
 
 ## 2、环境配置
-python：3.7（其他版本会导致openpose无法运行）  
+python：3.7（其他版本会导致openpose无法运行，建议使用anaconda的python环境）  
 cuda：10  
 cudnn：7或8应该都行  
 （配置cuda和cudnn会比较麻烦，如果实在不想配，你可以去openpose的github网站下载使用cpu的版本，这里这个版本应该不支持cpu）
@@ -49,20 +49,31 @@ cudnn：7或8应该都行
 ### (0).python和cuda和cudnn自己装
 <br>
 
-### (1).安装requirements.txt中的库  
+### (1).下载文件
+&emsp;&emsp;&emsp;&emsp;从github下载代码文件后，再从网盘下载模型和数据文件（没有这些跑不起来），网盘链接：
+```
+链接：https://pan.baidu.com/s/1Q2aVVhMhSfWL4qKS9QslkQ 
+提取码：abcd 
+
+（当然你大可直接找我拿u盘）
+```
+将从github下载的文件夹和网盘下载的文件夹合并，然后就可以下一步了。
+<br>
+
+### (2).安装requirements.txt中的库  
 &emsp;&emsp;&emsp;&emsp;cmd进入环境后，cd到项目文件夹下，执行指令：  
 ```
 pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
 ```
+<br>
 
-
-### (2).安装torch和torchvision  
+### (3).安装torch和torchvision  
 &emsp;&emsp;&emsp;&emsp;先下载好torch（1.2.0）和torchvision（0.4.0）的whl文件，下载地址：
 ```
 链接：https://pan.baidu.com/s/1QIuJfEE5qQFpXY8ZlHeLNQ 
 提取码：abcd 
 
-（当然你大可直接找我拿u盘）
+（当然你依旧可直接找我拿u盘）
 ```
 &emsp;&emsp;&emsp;&emsp;下载好torch和torchvision的whl文件后，cmd进入环境，cd到下载文件夹下，执行指令：
 ```
