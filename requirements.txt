@@ -1,0 +1,11 @@
+# torch and torchvision can only be installed with .whl, otherwise it will not install correctly
+# torch==1.2.0
+# torchvision==0.4.0
+opencv_python==4.1.2.30
+numpy==1.17.0
+matplotlib==3.1.2
+tqdm==4.60.0
+Pillow==8.3.2
+torchsummary==1.5.1
+scipy==1.2.1
+h5py==2.10.0
