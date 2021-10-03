@@ -50,7 +50,7 @@ cudnn：7或8应该都行
 <br>
 
 ### (1).下载文件
-&emsp;&emsp;&emsp;&emsp;从github下载代码文件后，再从网盘下载模型和数据文件（没有这些跑不起来），网盘链接：
+下载代码文件后，再从网盘下载模型和数据文件（没有这些跑不起来），网盘链接：
 ```
 链接：https://pan.baidu.com/s/1Q2aVVhMhSfWL4qKS9QslkQ 
 提取码：abcd 
@@ -61,14 +61,13 @@ cudnn：7或8应该都行
 <br>
 
 ### (2).安装requirements.txt中的库  
-&emsp;&emsp;&emsp;&emsp;cmd进入环境后，cd到项目文件夹下，执行指令：  
+cmd进入环境后，cd到项目文件夹下，执行指令：  
 ```
 pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
 ```
 <br>
 
-### (3).安装torch和torchvision  
-&emsp;&emsp;&emsp;&emsp;先下载好torch（1.2.0）和torchvision（0.4.0）的whl文件，下载地址：
+### (3).安装torch和torchvision  先下载好torch（1.2.0）和torchvision（0.4.0）的whl文件，下载地址：
 ```
 链接：https://pan.baidu.com/s/1QIuJfEE5qQFpXY8ZlHeLNQ 
 提取码：abcd 
