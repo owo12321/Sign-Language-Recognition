@@ -74,7 +74,7 @@ pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
 
 （当然你依旧可直接找我拿u盘）
 ```
-&emsp;&emsp;&emsp;&emsp;下载好torch和torchvision的whl文件后，cmd进入环境，cd到下载文件夹下，执行指令：
+下载好torch和torchvision的whl文件后，cmd进入环境，cd到下载文件夹下，执行指令：
 ```
 pip install [torch或torchvision的whl文件的文件名]
 
