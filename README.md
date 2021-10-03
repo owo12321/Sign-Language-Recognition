@@ -54,10 +54,10 @@ cudnn：7或8应该都行
 ```
 链接：https://pan.baidu.com/s/1Q2aVVhMhSfWL4qKS9QslkQ 
 提取码：abcd 
-
-（当然你大可直接找我拿u盘）
 ```
 将从github下载的文件夹和网盘下载的文件夹合并，然后就可以下一步了。
+（当然你大可直接找我要u盘拿完整的文件）
+
 <br>
 
 ### (2).安装requirements.txt中的库  
