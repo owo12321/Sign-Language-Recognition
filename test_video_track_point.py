@@ -101,15 +101,15 @@ cv2.imwrite('track_of_point.jpg', track_img)
 
 # 取消注释下面这几行，就可以把图片送到classification中去做分类
 
-from classification.classification_pose import Classification
+# from classification.classification_pose import Classification
 
-# 将BGR转成RGB
-track_img = cv2.cvtColor(track_img, cv2.COLOR_BGR2RGB)
+# # 将BGR转成RGB
+# track_img = cv2.cvtColor(track_img, cv2.COLOR_BGR2RGB)
 
-# 分类器
-classification = Classification()
+# # 分类器
+# classification = Classification()
 
-# 传到classification中去分类
-track_img = Image.fromarray(track_img)
-class_name = classification.detect_image(track_img)
-print(class_name)
+# # 传到classification中去分类
+# track_img = Image.fromarray(track_img)
+# class_name = classification.detect_image(track_img)
+# print(class_name)
